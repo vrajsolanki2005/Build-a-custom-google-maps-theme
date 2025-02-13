@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Google Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=location_on" />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 30
+      }
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Dosis:wght@200&family=Kalnia:wght@300&display=swap');
+    </style>
+      
+</head>
+<body>
+    
+    <h1>Custom Google Map<span class="material-symbols-outlined">
+      location_on
+      </span></h1>
+    <input id="search-box" type="text" placeholder="Search for a location...">
+    
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    <footer>
+      <p>Created by <b>Vraj Rajput</b></p>
+    </footer>
+    <script src="script.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDtmY-RwN39tP4RuD3QZWasJx9Znhst-s&libraries=places&callback=initMap"
+    async defer>
+  </script>
+    
+    
+</body>
+</html>
